@@ -47,7 +47,7 @@ The following endpoints are for validation/verification of single entity data.
 
 ### Phone Numbers
 #### Request
-/phonenumbers?phone_number={phone number to process}
+/phonenumbers?number={phone number to process}
 #### Response
 <pre><code>
 {
