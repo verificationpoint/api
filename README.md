@@ -52,4 +52,4 @@ The following endpoints are for validation/verification of single entity data.
     "RootDomainName": "hotmail",
     "TopLevelDomainName": "com"
 }
-  </code>
+</code>
