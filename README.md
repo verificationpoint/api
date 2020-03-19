@@ -13,3 +13,12 @@ You will automatically be charged for each response returned. If you do not have
 ## Response Data
 All response/output data is returned as JSON.
 
+# Endpoints
+The following endpoints are for validation/verification processing.
+
+## Single Endpoints
+The following endpoints are for validation/verification of single entity data.
+
+### Email Addresses
+#### Request
+/emailaddresses?email_address=
