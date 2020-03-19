@@ -71,33 +71,33 @@ The following endpoints are for validation/verification of multiple entity data.
 The order of responses will always be the same.
 <pre><code>
 [
-{
-    "Address": "email@hotmail.com",
-    "Valid": true,
-    "Deliverable": true,
-    "Role": false,
-    "Free": true,
-    "Isp": false,
-    "Corporate": false,
-    "Disposable": false,
-    "Suppressed": false,
-    "Screamer": false,
-    "Global": false,
-    "Trap": false,
-    "UserName": "email",
-    "DisplayName": "",
-    "DomainName": "hotmail.com",
-    "RootDomainName": "hotmail",
-    "TopLevelDomainName": "com"
-},
-{
-    "Number": "1234567890",
-    "Valid": true,
-    "Connected": true,
-    "AreaCode": "123",
-    "State": "NY",
-    "FederalSuppressed": false,
-    "StateSuppressed": false,
-}
+   {
+      "Address":"email@hotmail.com",
+      "Valid":true,
+      "Deliverable":true,
+      "Role":false,
+      "Free":true,
+      "Isp":false,
+      "Corporate":false,
+      "Disposable":false,
+      "Suppressed":false,
+      "Screamer":false,
+      "Global":false,
+      "Trap":false,
+      "UserName":"email",
+      "DisplayName":"",
+      "DomainName":"hotmail.com",
+      "RootDomainName":"hotmail",
+      "TopLevelDomainName":"com"
+   },
+   {
+      "Number":"1234567890",
+      "Valid":true,
+      "Connected":true,
+      "AreaCode":"123",
+      "State":"NY",
+      "FederalSuppressed":false,
+      "StateSuppressed":false
+   }
 ]
 </code></pre>
