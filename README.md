@@ -34,7 +34,7 @@ The following endpoints are for validation/verification of single entity data.
 {
     "RecordId": 0,
     "PartyId": 7,
-    "EmailAddress": "timhun@hotmail.com",
+    "EmailAddress": "email@hotmail.com",
     "Valid": true,
     "Deliverable": true,
     "Role": false,
@@ -46,7 +46,7 @@ The following endpoints are for validation/verification of single entity data.
     "Screamer": false,
     "Global": false,
     "Trap": false,
-    "UserName": "timhun",
+    "UserName": "email",
     "DisplayName": "",
     "DomainName": "hotmail.com",
     "RootDomainName": "hotmail",
