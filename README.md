@@ -21,20 +21,11 @@ The following endpoints are for validation/verification of single entity data.
 
 ### Email Addresses
 #### Request
-/emailaddresses?email_address={email address to process}
-#### Response
-
-
-### Phone Numbers
-#### Request
-/phonenumbers?phone_number={phone number to process}
-
+/emailaddresses?address={email address to process}
 #### Response
 <pre><code>
 {
-    "RecordId": 0,
-    "PartyId": 7,
-    "EmailAddress": "email@hotmail.com",
+    "Address": "email@hotmail.com",
     "Valid": true,
     "Deliverable": true,
     "Role": false,
@@ -51,5 +42,15 @@ The following endpoints are for validation/verification of single entity data.
     "DomainName": "hotmail.com",
     "RootDomainName": "hotmail",
     "TopLevelDomainName": "com"
+}
+</code>
+
+### Phone Numbers
+#### Request
+/phonenumbers?phone_number={phone number to process}
+#### Response
+<pre><code>
+{
+    
 }
 </code>
