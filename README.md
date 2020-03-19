@@ -21,4 +21,35 @@ The following endpoints are for validation/verification of single entity data.
 
 ### Email Addresses
 #### Request
-/emailaddresses?email_address=
+/emailaddresses?email_address={email address to process}
+#### Response
+
+
+### Phone Numbers
+#### Request
+/phonenumbers?phone_number={phone number to process}
+
+#### Response
+<pre><code>
+{
+    "RecordId": 0,
+    "PartyId": 7,
+    "EmailAddress": "timhun@hotmail.com",
+    "Valid": true,
+    "Deliverable": true,
+    "Role": false,
+    "Free": true,
+    "Isp": false,
+    "Corporate": false,
+    "Disposable": false,
+    "Suppressed": false,
+    "Screamer": false,
+    "Global": false,
+    "Trap": false,
+    "UserName": "timhun",
+    "DisplayName": "",
+    "DomainName": "hotmail.com",
+    "RootDomainName": "hotmail",
+    "TopLevelDomainName": "com"
+}
+  </code>
