@@ -51,6 +51,12 @@ The following endpoints are for validation/verification of single entity data.
 #### Response
 <pre><code>
 {
-    
+    "Number": "1234567890",
+    "Valid": true,
+    "Connected": true,
+    "AreaCode": "123",
+    "State": "NY",
+    "FederalSuppressed": false,
+    "StateSuppressed": false,
 }
 </code>
