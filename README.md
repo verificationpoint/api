@@ -1,4 +1,4 @@
-# Application Programming Interface (API)
+# VerficationPoint Application Programming Interface (API)
 The API allows you to perform individual, household, email address, postal address, and phone number validations & verifications through multiple single interfaces, or through a combined interface.
 
 ## Overview
